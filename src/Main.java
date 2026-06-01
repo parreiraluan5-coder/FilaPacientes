@@ -7,11 +7,11 @@ public class Main {
         fila.adicionarChegada(new Paciente("Carlos", 50, "Cardiologista"));
         fila.exibirFila();
 
-        // Inserindo na posição 1 (segundo lugar da fila)
         fila.adicionarPrioridade(new Paciente("Ana (Idosa)", 75, "Geral"), 1);
         fila.exibirFila();
 
-        // Carlos desiste
+        fila.buscarPorNome("Maria");
+
         fila.removerPaciente("Carlos");
         fila.exibirFila();
     }

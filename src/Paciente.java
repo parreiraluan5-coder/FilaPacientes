@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 class Paciente {
     String nome;
     int idade;
